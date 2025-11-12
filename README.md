@@ -48,12 +48,6 @@ cd system-monitor
 pip install -r requirements.txt
 
 ```
-METHOD 2: STANDALONE EXECUTABLE
-
-1. Download SystemMonitor.exe from the releases section
-2. Run the executable file
-3. The application automatically hides and begins operation in background
-
 CONFIGURATION
 
 TELEGRAM SETUP:
